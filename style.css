@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+}
+header .logo{
+    width: 30%;
+    height: 100px;
+}
+.logo{
+    text-align: center;
+}
+header nav{
+    width: 70%;
+    height: 100px;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: #006DB7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li:last-child{
+    margin-right: 30px;
+}
+nav ul li:hover{
+    background-color: transparent;
+    color: #006DB7;
+    border: 2px solid #006DB7;
+    border-radius: 5px;
+}
+.float{
+    float: left;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.main{
+    width:100%;
+    height: 80vh;
+    background-color:transparent;
+}
+.main .content{
+    width: 50%;
+    height: 80vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1, .about h1{
+    color: #006DB7 ;
+    font-size: 40px;
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    background-color: #006DB7;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.about{
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+.bg{
+    background-image:  url("bg1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-dark{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+.services{
+    text-align: center;
+}
+.services figure{
+    width:25%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 15px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    padding: 20px;
+    text-align: justify;
+}
+figure button{
+    width:100%;
+    height: 50px;
+    background-color: #006DB7;
+    color: white;
+    border: none;
+}
+form{
+    width: 80%;
+    height: 100%;
+    margin-right:100px;
+    text-align: right;
+}
+form input{
+    width: 80%;
+    height: 35px;   
+}
+form input:last-child{
+    width:200px;
+    height: 50px;
+    background-color: #006DB7;
+    color: white;
+    border: none;
+}
+.bg2{
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.bg3{
+    background-color: #04456f;
+    color:white;
+    width: 100%;
+    text-align: centre;
+    padding: 30px;
+}
+.bg3 .float , .bg2 .float{
+    width: 25%;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+.bg2 .float{
+    text-align: center;
+}
+.progress h1{ 
+    text-align:center;
+    font-size: 30px;
+    color: #006DB7;
+}
+footer{
+    background-color: #052941;
+    color: white;
+    text-align: center;
+}
+.progcontent{
+    width: 100%;
+    height: 50vh;
+    padding:5px 50px;
+}
+.progcontent div{
+    width: 25%;
+    height: auto;
+    padding:0px 10px;
+}
+.progcontent figure{
+    width: 100%;
+    height:40vh;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+.progcontent figcaption{
+    text-align: center;
+}
+.progcontent img{
+    width: 100px;
+    height: 100px;
+}
+.special{
+    width: 100%;
+    height: 70vh;
+    background-color: #04456f;
+    color: white;
+}
+.splcontent{
+    width: 50%;
+    height: 70vh;
+}
+.splcontent img{
+    width: 70%;
+    height: auto;
+}
+.splcontent h1{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.splcontent h3{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.testimonial{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.testimonial div{
+    width: 45%;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: 3px 3px 7px 3px grey;
+} 
+.testimonial h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:#006DB7;
+}
+.testimonial h3,h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #006DB7;
+}
+.space{
+    width: 100%;
+    height: 80px;
+}
+
